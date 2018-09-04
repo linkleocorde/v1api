@@ -1,5 +1,5 @@
 # v1api
-**Console:** https://www10.v1host.com/NIKE01a/APIConsole.mvc
+**Console:** https://www10.v1host.com/NIKE01a/APIConsole.mvc<br />Use "query.v1" with POST/XML method.
 
 **Meta:** https://www10.v1host.com/NIKE01a/meta.v1?xsl=api.xsl#EpicCategory
 

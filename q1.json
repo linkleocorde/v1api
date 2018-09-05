@@ -1,0 +1,60 @@
+[
+	[
+		{
+			"_oid": "Epic:1653893",
+			"ID": {
+				"_oid": "Epic:1653893"
+			},
+			"Number": "E-33329",
+			"Name": "OneSource TAS to Global Platforms Account Migration - Q2",
+			"Scope": {
+				"_oid": "Scope:1491344"
+			},
+			"Custom_AhaReference": null,
+			"Description": "<p> </p>\r\n<p>Q2: Sprint 1-5</p>",
+			"Status": {
+				"_oid": "NULL"
+			},
+			"ChangeDate": "2018-08-13T13:38:55.4600000",
+			"Key": "1653893",
+			"Parent": {
+				"_oid": "NULL"
+			},
+			"Children": [],
+			"SubsAndDown.Name": [
+				"OneSource: QA - Upgrade DB to 12.1.0.2",
+				"OneSource: PROD - Upgrade DB to 12.1.0.2",
+				"OneSource: DB Build Prod",
+				"OneSource: NGP PROD Build",
+				"OneSource: NGP DR Build",
+				"OneSource: Cutover Stories TBD",
+				"OneSource: Dev DB Build - HA Standby Build [after upgrade]",
+				"OneSource: Dev - Upgrade DB to 12.1.0.2 - Cutover",
+				"OneSource: DB Build QA",
+				"[Research] OneSource: DR Plan - testing prior to Prod go-live?",
+				"Dev OneSource AWS Account Move",
+				"OneSource: DR Work",
+				"OneSource: Prod - Post Cutover",
+				"OneSource: Dev - Post Cutover",
+				"OneSource: QA - Post Cutover"
+			],
+			"SubsAndDown.Number": [
+				"B-191843",
+				"B-191844",
+				"B-203411",
+				"B-220649",
+				"B-220650",
+				"B-227189",
+				"B-241144",
+				"B-241632",
+				"B-248346",
+				"B-248704",
+				"B-250772",
+				"B-251868",
+				"B-260691",
+				"B-260693",
+				"B-260695"
+			]
+		}
+	]
+]

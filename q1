@@ -1,6 +1,7 @@
 from: Epic
 select:
   - ID
+  - Number
   - Name
   - Scope
   - Custom_AhaReference
@@ -11,6 +12,6 @@ select:
   - Key
   - Parent
   - SubsAndDown.Name
-  - SubsAndDown.ID
+  - SubsAndDown.Number
 where:
   ID: "Epic:187946"

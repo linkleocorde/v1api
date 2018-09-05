@@ -1,0 +1,16 @@
+from: Epic
+select:
+  - ID
+  - Name
+  - Scope
+  - Custom_AhaReference
+  - Description
+  - Status
+  - ChangeDate
+  - Children
+  - Key
+  - Parent
+  - SubsAndDown.Name
+  - SubsAndDown.ID
+where:
+  ID: "Epic:187946"

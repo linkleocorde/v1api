@@ -1,0 +1,10 @@
+from: StrategicTheme
+select:
+  - ID
+  - Number
+  - Name
+  - Key
+  - Epics.Name
+  - Epics.Number
+where:
+  Number: "ST-01043"

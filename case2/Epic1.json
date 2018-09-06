@@ -1,0 +1,18 @@
+{
+  "from": "Epic",
+  "select": [
+    "Key",
+    "Number",
+    "Name",
+    "Custom_AhaReference",
+    "Status.Name",
+    "Subs.@Count",
+    "SubsAndDown.@Count"
+  ],
+  "find": "FY19 Q2",
+  "findin": "Scope.Name",
+  "where": {
+    "Status.RollupState": "Active",
+    "ID": "Epic:1251839"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "from": "Scope",
+  "select": [
+    "Name",
+    "Description",
+    "Parent",
+    "Scheme",
+    "PlanningLevel",
+    "TaggedWith",
+    "Key"
+  ],
+  "find": "FY19 Q2",
+  "findin": "Name"
+}

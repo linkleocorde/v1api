@@ -1,0 +1,14 @@
+{
+  "from": "PlanningLevel",
+  "select": [
+    "Name",
+    "Description",
+    "Order",
+    "ID",
+    "Key",
+    "Scopes"
+  ],
+  "where": {
+    "Key": "232"
+  }
+}

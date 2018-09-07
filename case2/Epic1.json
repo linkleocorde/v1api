@@ -4,10 +4,11 @@
     "Key",
     "Number",
     "Name",
+    "Scope.Name",
     "Custom_AhaReference",
     "Status.Name",
-    "Subs.@Count",
-    "SubsAndDown.@Count"
+    "Subs[AssetState!='Dead'].@Count",
+    "SubsAndDown[AssetState!='Dead'].@Count"
   ],
   "find": "FY19 Q2",
   "findin": "Scope.Name",

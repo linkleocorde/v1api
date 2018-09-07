@@ -1,0 +1,33 @@
+{
+  "from": "Scope",
+  "select": [
+    "PlanningLevel.Name",
+    "Key",
+    "Parent.Parent.Name",
+    "Parent.Name",
+    "Name",
+    "Scheme.Name",
+    "PlanningLevel",
+    "Workitems[AssetState!='Dead'].AssetType",
+    "Workitems[AssetState!='Dead'].Name"
+  ],
+  "find": "EA FY19 Q2",
+  "findin": "Name",
+  "where": {
+    "Parent.Parent.Name": "EAAP"
+  }
+}
+
+{
+  "from": "Scope",
+  "select": [
+    "PlanningLevel.Name",
+    "Key",
+    "Parent.Parent.Name",
+    "Parent.Name",
+    "Name",
+    "Workitems[AssetState!='Dead'].AssetType"
+  ],
+  "find": "FY19 Q2",
+  "findin": "Name"
+}

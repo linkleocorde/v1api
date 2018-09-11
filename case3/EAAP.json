@@ -4,13 +4,16 @@
     "Key",
     "Number",
     "Name",
+    "AssetType",
     "Status.Name",
     "Status.RollupState",
+    "Super.Number",
+    "Super.Name",
+    "Super.AssetType",
     "Scope.Name",
     "Scope.Parent.Name",
     "Scope.Parent.Parent.Name",
-    "Subs[AssetState!='Dead'].@Count",
-    "SubsAndDown[AssetState!='Dead'].@Count"
+    "Subs[AssetState!='Dead'].@Count"
   ],
   "find": "FY19 Q2",
   "findin": "Scope.Name",

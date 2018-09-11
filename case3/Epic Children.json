@@ -6,7 +6,7 @@
     "Name",
     "Status.Name",
     "Status.RollupState",
-    "SuperAndUp.Name"
+    "SuperAndUp.Name",
     "Scope.Name",
     "Scope.Parent.Name",
     "Scope.Parent.Parent.Name",

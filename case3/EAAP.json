@@ -1,0 +1,20 @@
+{
+  "from": "Epic",
+  "select": [
+    "Key",
+    "Number",
+    "Name",
+    "Status.Name",
+    "Status.RollupState",
+    "Scope.Name",
+    "Scope.Parent.Name",
+    "Scope.Parent.Parent.Name",
+    "Subs[AssetState!='Dead'].@Count",
+    "SubsAndDown[AssetState!='Dead'].@Count"
+  ],
+  "find": "FY19 Q2",
+  "findin": "Scope.Name",
+  "where": {
+    "Scope.Parent.Parent.ID": "Scope:807715"
+  }
+}

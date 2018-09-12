@@ -1,0 +1,11 @@
+{
+  "from": "Scope",
+  "select": [
+    "Name",
+    "PlanningLevel.Name",
+    "Workitems[AssetState!='Dead'].ID"
+  ],
+  "where": {
+    "ID": "Scope:807715"
+  }
+}

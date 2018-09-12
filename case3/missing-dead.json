@@ -9,13 +9,18 @@
     "Status.RollupState",
     "Super.Number",
     "Super.Name",
+    "Super.Scope.Name",
+    "Super.Scope.Parent.Name",
     "Super.AssetType",
     "Scope.Name",
     "Scope.Parent.Name",
     "Scope.Parent.Parent.Name",
-    "Subs[AssetState!='Dead'].@Count"
+    "Subs[AssetState!='Dead'].@Count",
+    "Scope.ParentAndUp.Name"
   ],
+  "find": "EAPP",
+  "findin": "Scope.ParentAndUp.Name",
   "where": {
-    "ID": "Epic:00000"
+    "Number": "E-17647"
   }
 }

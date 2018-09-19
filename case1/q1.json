@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+=======
+{
+  "from": "Epic",
+  "select": [
+    "ID",
+    "Number",
+    "Name",
+    "Description",
+    "Custom_AhaReference",
+    "Parent",
+    "Children",
+    "SubsAndDown.Name",
+    "SubsAndDown.Number",
+    "SubsAndDown.Key"
+  ],
+  "where": {
+    "Number": "E-33329"
+  }
+}
+>>>>>>> 2fe1149ff891ddc43d7a4db0f7a58bac756a3983
